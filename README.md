@@ -3,6 +3,7 @@ ubuntu-install-phpsh
 
 How to install phpsh on Ubuntu (shortcut)
 
-`curl goo.gl/cQ5RA | bash`
+`curl -L git.io/NXdNfA | bash`
 
-Check the source
+Check the source.
+I just got tired of installing it by hand via `git`.
