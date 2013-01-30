@@ -1,4 +1,4 @@
-ubuntu-install-phpsh
+Install phpsh (PHP Repl) on Ubuntu
 ====================
 
 How to install phpsh on Ubuntu (shortcut)
