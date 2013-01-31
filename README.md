@@ -1,9 +1,10 @@
-Install phpsh (PHP Repl) on Ubuntu
-====================
-
 How to install phpsh on Ubuntu (shortcut)
+===
 
-`curl -L git.io/NXdNfA | bash`
+`curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-phpsh.sh | bash`
 
-Check the source.
-I just got tired of installing it by hand via `git`.
+How to install RVM on Ubuntu (shortcut)
+===
+
+`curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-phpsh.sh | bash`
+
