@@ -13,7 +13,8 @@ How to install RVM on Ubuntu
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-ruby.sh | bash -e) && source ~/.bash_profile`
 
-How to install Passenger with special settings 
+How to install Passenger with special settings
+===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | bash -e)`
 
