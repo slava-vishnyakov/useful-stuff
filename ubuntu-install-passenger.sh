@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
-if [ -d ~/.rvm ]; then
-   echo "RVM already installed"
+if [ -d /opt/nginx ]; then
+   echo "nginx already installed"
    exit 1;
 fi
 
