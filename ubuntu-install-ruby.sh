@@ -3,4 +3,5 @@ sudo apt-get -y install curl libcurl4-gnutls-dev git nodejs build-essential open
 \curl -L https://get.rvm.io | bash -s stable --ruby
 . ~/.bash_profile
 rvm install 1.9.3 --force
+rvm use 1.9.3 --default
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
