@@ -3,15 +3,19 @@ What is this?
 
 My 'private' stash of useful stuff for server administration.
 
-How to install phpsh on Ubuntu (shortcut)
+How to install phpsh on Ubuntu
 ===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-phpsh.sh | bash -e)`
 
-How to install RVM on Ubuntu (shortcut)
+How to install RVM on Ubuntu
 ===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-ruby.sh | bash -e) && source ~/.bash_profile`
+
+How to install Passenger with special settings 
+
+`sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | bash -e)`
 
 Install Google DNS servers into vagrant machine
 ===
