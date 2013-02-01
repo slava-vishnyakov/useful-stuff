@@ -5,6 +5,7 @@ if [ -d /opt/nginx ]; then
    exit 1;
 fi
 
+gem install passenger
 sudo mkdir /opt/nginx; sudo chown `whoami` /opt/nginx
 passenger-install-nginx-module --auto --auto-download --prefix=/opt/nginx
 sudo wget https://raw.github.com/slava-vishnyakov/useful-stuff/master/init.d-nginx.conf -O /etc/init.d/nginx
