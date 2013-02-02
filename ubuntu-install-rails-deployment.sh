@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-id rails1 || (echo "Creating user rails..."; sudo useradd -s /bin/bash -d /home/rails -m rails)
+id rails || (echo "Creating user rails..."; sudo useradd -s /bin/bash -d /home/rails -m rails)
 
 echo "rails ALL=(ALL) NOPASSWD: /usr/bin/wget, /usr/bin/curl, /usr/bin/apt-get, /bin/mkdir, /bin/chown, /bin/chmod, /usr/sbin/update-rc.d, /usr/bin/service" | sudo tee -a /etc/sudoers
 
