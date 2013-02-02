@@ -10,6 +10,16 @@ Install RVM, Passenger, all ready for Rails deployment on clean Ubuntu
 
 Creates `rails` user, and `/opt/nginx` owned by you (I'm working on it). Then create `/opt/nginx/conf/rails-sites/*.conf` for your websites.
 
+Example `/opt/nginx/conf/rails-sites/test.com.conf`
+
+    server {
+      listen 80;
+      server_name test.com;
+      passenger_on;
+      passenger_root /home/rails/applications/test.com/current/public;
+      passenger_user nobody;
+    }
+
 Last checked 2 Feb 2013
 
 How to install phpsh on Ubuntu
