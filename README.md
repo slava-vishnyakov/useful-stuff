@@ -6,7 +6,11 @@ My 'private' stash of useful stuff for server administration.
 Install RVM, Passenger, all ready for Rails deployment on clean Ubuntu
 ===
 
+Last checked 2 Feb 2013
+
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-rails-deployment.sh | bash -e)`
+
+Creates `rails` user, and `/opt/nginx` owned by you (I'm working on it). Then create `/opt/nginx/conf/rails-sites/*.conf` for your websites.
 
 How to install phpsh on Ubuntu
 ===
@@ -25,8 +29,6 @@ How to install Passenger with special settings
 ===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | bash -e)`
-
-Creates `rails` user, and `/opt/nginx` owned by you (I'm working on it). Then create `/opt/nginx/conf/rails-sites/*.conf` for your websites.
 
 Install Google DNS servers into vagrant machine
 ===
