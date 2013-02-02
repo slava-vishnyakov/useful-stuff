@@ -3,7 +3,7 @@ What is this?
 
 My 'private' stash of useful stuff for server administration.
 
-Install RVM, Passenger, all ready for Rails deployment
+Install RVM, Passenger, all ready for Rails deployment on clean Ubuntu
 ===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-rails-deployment.sh | bash -e)`
