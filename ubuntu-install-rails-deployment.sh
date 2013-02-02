@@ -8,7 +8,8 @@ else
   sudo useradd -s /bin/bash -d /home/rails -m rails
 fi
 
-
 echo "Installing RVM to user 'rails'"
+curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-ruby.sh | sudo -u rails bash -e
 
 echo "Installing Passenger to /opt/nginx/"
+curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | sudo -u rails bash -e
