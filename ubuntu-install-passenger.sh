@@ -37,7 +37,7 @@ ruby -e "
 "
 
 echo "Creating /opt/nginx/conf/rails-sites"
-sudo mkdir /opt/nginx/conf/rails-sites
+mkdir /opt/nginx/conf/rails-sites
 
 if id rails > /dev/null 2>&1
 then
