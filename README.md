@@ -50,3 +50,8 @@ How to install Passenger with special settings
 ===
 
     sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | bash -e)
+
+Generate password from CLI
+===
+
+    openssl rand -base64 15
