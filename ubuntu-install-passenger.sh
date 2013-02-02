@@ -19,6 +19,11 @@ sudo update-rc.d nginx defaults
 sudo wget https://raw.github.com/slava-vishnyakov/useful-stuff/master/nginx.conf -O /opt/nginx/conf/nginx.conf
 sudo mkdir /opt/nginx/conf/rails-sites
 
-sudo useradd -s /bin/bash -d /home/rails -m rails
+if id rails > /dev/null 2>&1
+  echo "User rails exists!"
+else
+  echo "Creating user rails..."
+  sudo useradd -s /bin/bash -d /home/rails -m rails
+fi
 
 sudo service nginx start
