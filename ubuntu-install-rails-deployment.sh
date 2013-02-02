@@ -8,6 +8,8 @@ else
   sudo useradd -s /bin/bash -d /home/rails -m rails
 fi
 
+echo "rails ALL=(ALL) NOPASSWD: /usr/bin/apt-get, /bin/mkdir, /bin/chown, /bin/chmod, /usr/sbin/update-rc.d, /usr/bin/service" | sudo tee -a /etc/sudoers
+
 echo "Installing RVM to user 'rails'"
 curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-ruby.sh | sudo -u rails bash -e
 
