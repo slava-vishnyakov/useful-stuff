@@ -20,6 +20,7 @@ sudo wget https://raw.github.com/slava-vishnyakov/useful-stuff/master/nginx.conf
 sudo mkdir /opt/nginx/conf/rails-sites
 
 if id rails > /dev/null 2>&1
+then
   echo "User rails exists!"
 else
   echo "Creating user rails..."
