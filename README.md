@@ -3,10 +3,18 @@ What is this?
 
 My 'private' stash of useful stuff for server administration.
 
+Install RVM, Passenger, all ready for Rails deployment
+===
+
+`sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-rails-deployment.sh | bash -e)`
+
 How to install phpsh on Ubuntu
 ===
 
 `sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-phpsh.sh | bash -e)`
+
+Components
+---
 
 How to install RVM on Ubuntu
 ===
