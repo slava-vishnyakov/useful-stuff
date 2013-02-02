@@ -39,14 +39,6 @@ ruby -e "
 echo "Creating /opt/nginx/conf/rails-sites"
 mkdir /opt/nginx/conf/rails-sites
 
-if id rails > /dev/null 2>&1
-then
-  echo "User rails exists!"
-else
-  echo "Creating user rails..."
-  sudo useradd -s /bin/bash -d /home/rails -m rails
-fi
-
 echo "Starting nginx"
 sudo service nginx start
 
