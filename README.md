@@ -19,7 +19,6 @@ Example `/opt/nginx/conf/rails-sites/test.com.conf`
       passenger_root /home/rails/applications/test.com/current/public;
       # passenger_user nobody;
       passenger_max_requests 500;
-      passenger_user nobody;
     }
 
 Last checked 2 Feb 2013
