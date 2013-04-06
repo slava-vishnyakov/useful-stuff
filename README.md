@@ -52,6 +52,11 @@ How to install Passenger with special settings
 
     sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/ubuntu-install-passenger.sh | bash -e)
 
+Fix Cannot Set LC_CTYPE to Default Locale
+===
+
+    sudo apt-get -y install curl && (curl -L https://raw.github.com/slava-vishnyakov/useful-stuff/master/fix-lc_ctype.sh | bash -e)
+
 Generate password from CLI
 ===
 
